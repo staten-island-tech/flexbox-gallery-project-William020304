@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+.Famous-Landmarks {
+  text-align: center;
+}
+.Everything {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.landmarks {
+  box-sizing: content-box;
+  border: solid gray 1rem;
+  width: 30%;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+.Sydney {
+  background-image: url(imgs/OperaHouse.jpg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  
