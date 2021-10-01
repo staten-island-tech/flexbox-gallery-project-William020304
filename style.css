@@ -2,9 +2,11 @@ body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
+  font-family: "Comfortaa", cursive;
 }
 .Famous-Landmarks {
   text-align: center;
+  font-size: 70px;
 }
 .Everything {
   display: flex;
@@ -14,7 +16,7 @@ body {
 
 .landmarks {
   box-sizing: content-box;
-  border: solid gray 1rem;
+  border: solid gray 0.5rem;
   width: 30%;
   padding-bottom: 5rem;
   margin-bottom: 5rem;
@@ -25,6 +27,75 @@ body {
 .Sydney {
   background-image: url(imgs/OperaHouse.jpg);
   background-repeat: no-repeat;
-  background-size: 20px;
+  background-size: 500px;
   background-position: center;
-  
+  height: 300px;
+  padding: 1rem;
+}
+.Paris {
+  background-image: url(imgs/Eiffel\ Tower.jfif);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.India {
+  background-image: url(imgs/Taj\ Mahal.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.Peru {
+  background-image: url(imgs/Machu\ Picchu.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.China {
+  background-image: url(imgs/Great\ Wall\ of\ China.jfif);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.Chile {
+  background-image: url(imgs/Easter\ Island.jpg.crdownload);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.Italy {
+  background-image: url(imgs/Pisa.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.Rome {
+  background-image: url(imgs/Rome.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.New-York {
+  background-image: url(imgs/Liberty.jfif);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  height: 300px;
+  padding: 1rem;
+}
+.Header {
+  font-size: 35px;
+}
