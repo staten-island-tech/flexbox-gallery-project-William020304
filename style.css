@@ -3,10 +3,11 @@ body {
   margin: 0;
   font-size: 62.5%;
   font-family: "Comfortaa", cursive;
+  background-color: beige;
 }
 .Famous-Landmarks {
   text-align: center;
-  font-size: 70px;
+  font-size: 3.5rem;
 }
 .Everything {
   display: flex;
@@ -20,82 +21,83 @@ body {
   width: 30%;
   padding-bottom: 5rem;
   margin-bottom: 5rem;
-  border-radius: 20px;
+  border-radius: 2.5rem;
   text-align: center;
   font-size: 1rem;
+  box-shadow: 1rem 1rem 1rem black;
 }
 .Sydney {
   background-image: url(imgs/OperaHouse.jpg);
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Paris {
   background-image: url(imgs/Eiffel\ Tower.jfif);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .India {
   background-image: url(imgs/Taj\ Mahal.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Peru {
   background-image: url(imgs/Machu\ Picchu.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .China {
   background-image: url(imgs/Great\ Wall\ of\ China.jfif);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Chile {
-  background-image: url(imgs/Easter\ Island.jpg.crdownload);
+  background-image: url(imgs/Easter\ island.jfif);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Italy {
   background-image: url(imgs/Pisa.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Rome {
   background-image: url(imgs/Rome.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .New-York {
   background-image: url(imgs/Liberty.jfif);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 30rem;
   background-position: center;
-  height: 300px;
+  height: 20rem;
   padding: 1rem;
 }
 .Header {
-  font-size: 35px;
+  font-size: 2rem;
 }
