@@ -25,6 +25,7 @@ body {
   text-align: center;
   font-size: 1rem;
   box-shadow: 1rem 1rem 1rem black;
+  transition: all;
 }
 .Sydney {
   background-image: url(imgs/OperaHouse.jpg);
@@ -100,4 +101,7 @@ body {
 }
 .Header {
   font-size: 2rem;
+}
+.landmarks:hover {
+  transform: scale(1.05);
 }
