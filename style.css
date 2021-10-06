@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-size: 1rem;
   box-shadow: 1rem 1rem 1rem black;
-  transition: all;
+  transition: all 0.7s;
 }
 .Sydney {
   background-image: url(imgs/OperaHouse.jpg);
@@ -103,5 +103,11 @@ body {
   font-size: 2rem;
 }
 .landmarks:hover {
-  transform: scale(1.05);
+  transform: scale(1.075);
+}
+.Sydney:hover {
+  transform: rotate(180deg);
+}
+.Paris:hover {
+  transform: skew(30deg);
 }
