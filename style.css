@@ -27,78 +27,14 @@ body {
   box-shadow: 1rem 1rem 1rem black;
   transition: all 0.7s;
 }
-.Sydney {
-  background-image: url(imgs/OperaHouse.jpg);
+.Pictures {
   background-repeat: no-repeat;
   background-size: 30rem;
   background-position: center;
   height: 20rem;
   padding: 1rem;
 }
-.Paris {
-  background-image: url(imgs/Eiffel\ Tower.jfif);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.India {
-  background-image: url(imgs/Taj\ Mahal.jpg);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.Peru {
-  background-image: url(imgs/Machu\ Picchu.jpg);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.China {
-  background-image: url(imgs/Great\ Wall\ of\ China.jfif);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.Chile {
-  background-image: url(imgs/Easter\ island.jfif);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.Italy {
-  background-image: url(imgs/Pisa.jpg);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.Rome {
-  background-image: url(imgs/Rome.jpg);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
-.New-York {
-  background-image: url(imgs/Liberty.jfif);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position: center;
-  height: 20rem;
-  padding: 1rem;
-}
+
 .Header {
   font-size: 2rem;
 }
@@ -109,5 +45,9 @@ body {
   transform: rotate(180deg);
 }
 .Paris:hover {
-  transform: skew(30deg);
+  transform: skew(10deg);
+}
+.India:hover {
+  animation: pulse 2s infinite;
+  animation-timing-function: linear;
 }
