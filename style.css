@@ -4,6 +4,15 @@ body {
   font-size: 62.5%;
   font-family: "Comfortaa", cursive;
   background-color: beige;
+  animation: 0.75s ease-out 0s 1 slideInRight;
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(180%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .Famous-Landmarks {
   text-align: center;
@@ -43,11 +52,12 @@ body {
 }
 .Sydney:hover {
   transform: rotate(180deg);
+  transition: all.3s ease-in-out 0s;
 }
 .Paris:hover {
-  transform: skew(10deg);
+  transform: skew(145deg 30deg);
+  transition: all 0.5s ease-in-out 2s;
 }
-.India:hover {
-  animation: pulse 2s infinite;
-  animation-timing-function: linear;
+.Chile:hover {
+  transform: rotate(180deg);
 }
