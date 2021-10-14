@@ -74,3 +74,18 @@ body {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+@media (max-width: 1050px) {
+  .landmarks {
+    width: 40%;
+  }
+}
+@media (max-width: 780px) {
+  .landmarks {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .Pictures {
+    height: 15rem;
+  }
+}
